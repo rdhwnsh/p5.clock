@@ -25,6 +25,6 @@ function draw() {
 
     textSize(15);
     text(new Date().getHours() + ":", 0, 80)
-    text(new Date().getMinutes() + ":", 12, 80)
-    text(new Date().getSeconds(), 34, 80)
+    text(new Date().getMinutes() + ":", 20, 80)
+    text(new Date().getSeconds(), 40, 80)
 }
