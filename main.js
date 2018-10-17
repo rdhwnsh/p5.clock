@@ -23,8 +23,7 @@ function draw() {
     rect(0, 40, seconds, 20)
 
 
-    textSize(15);
-    text(new Date().getHours() + ":", 0, 80)
-    text(new Date().getMinutes() + ":", 20, 80)
-    text(new Date().getSeconds(), 40, 80)
+    document.getElementById("hour").innerHTML = new Date().getHours()
+    document.getElementById("minute").innerHTML = new Date().getMinutes()
+    document.getElementById("seconds").innerHTML = new Date().getSeconds()
 }
